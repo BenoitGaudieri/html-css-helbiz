@@ -203,6 +203,8 @@ body {
 .nav-ham {
     margin-right: 10px;
     color: #000;
+    font-size: 175%;
+    vertical-align: top;
 }
 
 @media all and (min-width: 1200px) {
