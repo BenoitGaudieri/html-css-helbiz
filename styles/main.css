@@ -30,10 +30,6 @@ body {
     padding: 0 16px;
 }
 
-.w-25 {
-    width: 25%;
-}
-
 .w-30 {
     width: 30%;
 }
@@ -428,6 +424,10 @@ body {
         width: calc(100% / 3);
     }
 
+    .w-25 {
+        width: 25%;
+    }
+
     #how-works .col-sx {
         text-align: right;
     }
@@ -451,6 +451,7 @@ body {
     .w-33 {
         width: 100%;
     }
+
 
     #how-works .col-sx {
         text-align: center;
@@ -479,6 +480,14 @@ body {
 @media all and (max-width: 768px) {
     .menu-nav li {
         display: none;
+    }
+
+    .w-25 {
+        width: 100%;
+    }
+
+    #main-footer {
+        height: 100%;
     }
 
 }
