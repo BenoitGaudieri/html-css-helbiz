@@ -353,19 +353,17 @@ body {
 }
 
 .footer-mid-content {
-    border-top: 1px solid #7f7f7f;
-    border-bottom: 1px solid #7f7f7f;
+    border-top: 1px solid #98989852;
+    border-bottom: 1px solid #98989852;
     height: 100%;
     line-height: 100px;
     color: #fff;
-}
-
-.mid-content {
-    padding-top: 50px;
+    font-size: 14px;
 }
 
 .footer-mid .social {
     word-spacing: 20px;
+    font-size: 22px;
 }
 
 .footer-mid a {
@@ -390,7 +388,7 @@ body {
 }
 
 .footer-last img {
-    border: 1px solid #fff;
+    border: 1px solid #929292;
     border-radius: 5px;
     width: 100px;
 }
