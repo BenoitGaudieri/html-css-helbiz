@@ -317,6 +317,12 @@ body {
     font-size: 30px;
 }
 
+.mosaic-text span:nth-child(1) {
+    font-weight: 600;
+}
+
+
+
 .mosaic-text i {
     padding: 13px;
 }
