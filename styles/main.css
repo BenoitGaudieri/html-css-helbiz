@@ -68,7 +68,7 @@ body {
 
 /* HEADER */
 .main-header {
-    background: lightblue;
+    background: #fff;
 }
 
 .navbar {
@@ -321,8 +321,6 @@ body {
     font-weight: 600;
 }
 
-
-
 .mosaic-text i {
     padding: 13px;
 }
@@ -410,7 +408,8 @@ body {
 
 @media all and (min-width: 1200px) {
 
-    /* hamburger */
+    /* desktop resolution */
+    /* hamburger hidden, show menu */
     .nav-ham {
         display: none;
     }
@@ -419,17 +418,13 @@ body {
         display: inline-block;
     }
 
-    /* width */
+    /* desktop width */
     .w-50 {
         width: 50%;
     }
 
     .w-33 {
         width: calc(100% / 3);
-    }
-
-    .w-25 {
-        width: 25%;
     }
 
     #how-works .col-sx {
@@ -445,8 +440,17 @@ body {
     }
 }
 
+@media all and (min-width: 769px) {
+
+    /* footer columns */
+    .w-25 {
+        width: 25%;
+    }
+}
+
 @media all and (max-width: 1199px) {
 
+    /* column full width */
     /* width */
     .w-50 {
         width: 100%;
@@ -455,7 +459,6 @@ body {
     .w-33 {
         width: 100%;
     }
-
 
     #how-works .col-sx {
         text-align: center;
@@ -471,6 +474,8 @@ body {
 }
 
 @media all and (min-width: 769px) and (max-width: 1199px) {
+
+    /* show hamburger and hide lang bar */
     .nav-ham {
         display: inline-block;
     }
@@ -478,14 +483,16 @@ body {
     .nav-ham-lang {
         display: none;
     }
-
 }
 
 @media all and (max-width: 768px) {
+
+    /* hide navbar elements */
     .menu-nav li {
         display: none;
     }
 
+    /* footer column change */
     .w-25 {
         width: 100%;
     }
@@ -493,5 +500,4 @@ body {
     #main-footer {
         height: 100%;
     }
-
 }
